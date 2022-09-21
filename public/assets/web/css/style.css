@@ -1,0 +1,67 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f8f9fa;
+}
+/* Start sec-navbar */
+.sec-navbar .navbar .navbar-brand img {
+  width: 3.5rem;
+}
+.sec-navbar .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #0f4568;
+  font-size: 18px;
+}
+/* End sec-navbar */
+/* //////////////////////////////////////////// */
+/* Start sec-file*/
+.sec-file {
+  margin: 90px 0;
+}
+.sec-file form {
+  background-color: #0b4f7a;
+  padding: 60px;
+  border-radius: 15px;
+}
+/* End sec-file*/
+/* //////////////////////////////////////////// */
+/* Start sec-showFile*/
+.sec-showFile {
+  margin: 90px 0;
+}
+.sec-showFile .card {
+  height: 16rem;
+  margin: 10px 0;
+}
+/* End sec-showFile*/
+/* //////////////////////////////////////////// */
+/* Start sec-ReasonLeaving*/
+.sec-ReasonLeaving {
+  margin: 90px 0;
+}
+.sec-ReasonLeaving form {
+  background-color: #0b4f7a;
+  padding: 30px;
+  border-radius: 15px;
+}
+.sec-ReasonLeaving form label {
+  color: #fff;
+}
+/* End sec-ReasonLeaving*/
+/*  */
+
+.sec-Email{
+  background-color: #0f4568;
+}
+.sec-Email img{
+  width: 100%;
+  
+}
+
+
+/*  */

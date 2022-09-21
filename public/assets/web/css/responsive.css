@@ -1,0 +1,364 @@
+/* // Extra large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) {
+  .moving-respo-top {
+    margin-top: 15%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up)  */
+@media (max-width: 1199.98px) and (min-width: 992px) {
+  .underline::after {
+    content: "";
+    width: 15%;
+    height: 3px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .underline-signup::after {
+    content: "";
+    width: 18%;
+    height: 3px;
+    background-color: #00eeff;
+    display: block;
+    position: absolute;
+    top: 98%;
+    left: 31%;
+    transform: translate(-31%, -98%);
+  }
+
+  .sec-categories .categorie h4 {
+    font-size: 20px;
+  }
+
+  #myCarousel .carousel-item h3 {
+    font-size: 38px;
+  }
+
+  #myCarousel .carousel-item h4 {
+    font-size: 32px;
+  }
+
+  #myCarousel .carousel-item p {
+    font-size: 16px;
+  }
+
+  .moving-respo-top {
+    margin-top: 18%;
+  }
+  .sec-nav .navbar .navbar-collapse .navbar-nav .nav-item{
+    padding: 0;
+  }
+  .sec-nav .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    padding: 10px 5px;
+}
+}
+
+/* // Medium devices (tablets, 768px and up)  */
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .sec-hero .text-hero {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .underline::after {
+    content: "";
+    width: 15%;
+    height: 3px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .underline-signup::after {
+    content: "";
+    width: 25%;
+    height: 3px;
+    background-color: #00eeff;
+    display: block;
+    position: absolute;
+    top: 98%;
+    left: 23%;
+    transform: translate(-23%, -98%);
+  }
+
+  .sec-nav .navbar .navbar-collapse .navbar-nav .nav-item {
+    padding: 0px;
+  }
+
+  .sec-categories .categorie {
+    text-align: center;
+  }
+
+  .sec-categories .categorie h4 {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
+  #myCarousel .carousel-item h3 {
+    font-size: 26px;
+  }
+
+  #myCarousel .carousel-item h4 {
+    font-size: 24px;
+  }
+
+  #myCarousel .carousel-item p {
+    font-size: 14px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 35%;
+  }
+
+  .sec-footer p {
+    text-align: center;
+  }
+
+  .sec-Packages .Packages {
+    margin: 10px 10px;
+    max-width: 47%;
+  }
+
+  .moving-respo-top {
+    margin-top: 25%;
+  }
+
+  .Packages-title {
+    width: 75%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)  */
+
+@media (max-width: 767.98px) and (min-width: 576px) {
+  .sec-hero .text-hero {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .underline::after {
+    content: "";
+    width: 25%;
+    height: 3px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .underline-signup::after {
+    content: "";
+    width: 30%;
+    height: 3px;
+    background-color: #00eeff;
+    display: block;
+    position: absolute;
+    top: 98%;
+    left: 12%;
+    transform: translate(-12%, -98%);
+  }
+
+  .sec-nav .navbar .navbar-collapse .navbar-nav .nav-item {
+    padding: 0px;
+  }
+
+  .sec-categories .categorie {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px 35px;
+    padding: 10px;
+    box-shadow: 0 5px 20px -10px #000000;
+    text-align: center;
+  }
+
+  .sec-categories .categorie h4 {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
+  body > section.sec-stor > .container {
+    max-width: 480px;
+  }
+
+  .sec-footer p {
+    text-align: center;
+  }
+
+  .sec-Packages .Packages {
+    margin: 10px 10px;
+    max-width: 46%;
+  }
+
+  .moving-respo-top {
+    margin-top: 32%;
+  }
+}
+
+@media (max-width: 575.98px) and (min-width: 320px) {
+  .sec-hero .text-hero {
+    margin: auto;
+    text-align: center;
+  }
+
+  .underline::after {
+    content: "";
+    width: 28%;
+    height: 3px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .underline-signup::after {
+    content: "";
+    width: 15%;
+    height: 3px;
+    background-color: #00eeff;
+    display: block;
+    position: absolute;
+    top: 98%;
+    left: 32%;
+    transform: translate(-32%, -98%);
+  }
+
+  .sec-nav .navbar .navbar-collapse .navbar-nav .nav-item {
+    padding: 0px;
+  }
+
+  .sec-categories .categorie {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px 43px;
+    padding: 11px;
+    box-shadow: 0 5px 20px -10px #000000;
+    text-align: center;
+  }
+
+  .sec-categories .categorie h4 {
+    margin-top: 5px;
+    font-size: 18px;
+  }
+
+  body > section.sec-stor > .container {
+    max-width: 480px;
+  }
+
+  body > section.sec-nav > .container {
+    padding: 0;
+  }
+  .sec-footer p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .sec-Packages .Packages {
+    margin: 10px 10px;
+    max-width: 100%;
+  }
+
+  .moving-respo-top {
+    margin-top: 45%;
+  }
+
+  .Packages-title {
+    width: 90%;
+    text-align: center;
+  }
+  .body-pak-title-width {
+    width: 50%;
+  }
+  .Packages-body-title .body-pak-title {
+    font-size: 14px;
+  }
+  .body-pak-title-width2 {
+    width: 25%;
+  }
+  .Packages-body-title .body-pak-title span svg {
+    font-size: 14px;
+  }
+  .sec-nav .navbar .navbar-brand img {
+    width: 50%;
+  }
+  .sec-hero .text-hero h1 {
+    font-size: 24px;
+  }
+  .sec-hero .text-hero h2 {
+    font-size: 22px;
+  }
+  .sec-hero .text-hero .btn-light {
+    padding: 3px 60px;
+    font-size: 16px;
+  }
+  .sec-whyUs h1 {
+    font-size: 24px;
+  }
+  .sec-whyUs p {
+    font-size: 16px;
+  }
+  .sec-whyUs .our-choice h2 svg {
+    font-size: 32px;
+  }
+  .sec-whyUs .our-choice h4 {
+    font-size: 20px;
+  }
+  .order-2 {
+    order: -1;
+  }
+  #myCarousel .carousel-item h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  #myCarousel .carousel-item h4 {
+    font-size: 16px;
+    text-align: center;
+  }
+  #myCarousel .carousel-item p {
+    font-size: 14px;
+    margin: 0px 30px;
+    text-align: center;
+  }
+  #myCarousel .carousel-item .mask img {
+    max-width: 50%;
+  }
+  .sec-Packages p .btn-light {
+    padding: 3px 60px;
+    font-size: 18px;
+  }
+  .sec-opinions h1 {
+    font-size: 24px;
+  }
+  .sec-opinions p {
+    font-size: 16px;
+  }
+  .sec-connectUs h1 {
+    font-size: 24px;
+  }
+  .sec-connectUs p {
+    font-size: 16px;
+  }
+  .sec-footer h4 {
+    font-size: 18px;
+  }
+  .sec-footer p a .svg-inline--fa {
+    width: 20px;
+    height: 20px;
+  }
+  .navbar {
+    padding: 0;
+  }
+}
